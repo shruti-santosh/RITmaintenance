@@ -7,6 +7,220 @@
 <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
 
 <style>
+
+body{
+margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.bg{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.ho
+            {
+              text-align: center;
+              line-height: 100px;
+               height: 100px;
+              background-color: #262626;
+               color: white;
+             }
+.ho h1
+            {margin-top: -50px;
+            
+             color: #fff;
+             font-size: 2rem !important;
+             
+              
+             }
+              #logo
+         { 
+         padding: 0px;
+        margin-left: 2px;
+         margin-top: 0px;
+          
+       height: 50px !important;
+       width: 50px !important; }
+            
+/*.box{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}*/
+ 
+  ul li 
+             {list-style: none;
+              transition: 0.25s;
+               
+              }
+             ul li a 
+              {
+               text-decoration: none;
+               color: black;
+               padding: 20px;
+               display: inline-block;
+               transition: 0.25s;
+                text-align: left;
+}
+          
+              }
+              .menu li a: hover{ 
+               background: #262626;
+               border: 1px solid #262626;
+               }
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.box input[type = "text"],.box list{
+  border:0;
+  background: none;
+  display: block;
+  /*margin: 20px auto;*/
+  text-align: left;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box list:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: #3498db;
+  display: block;
+  /*margin: 20px auto;*/
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+.myList{
+border:0;
+  background: none;
+  display: block;
+  /*margin: 20px auto;*/
+  text-align: left;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #00cc44;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+   color: black;}
+              .navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #00cc44 !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+@media screen and (max-width: 768px){
+.col-sm-4{
+text-align: center;
+margin:25px 0;
+}}
+.bg-4 {clear: both;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  width: 100%;
+}
+section{height: 200px;}
+/* Typography - Sizes */
+.size-xs{ font-size: 14px; }
+.size-s{ font-size: 16px; }
+.size-m{ font-size: 20px; }
+.size-l{ font-size: 30px; }
+.size-xl{ font-size: 36px; }
+.size-xxl{ font-size: 48px; }
+.size-xxxl{ font-size: 60px; }
+.size-xxxxl{ font-size: 72px; }
+@media (max-width: 1024px) {
+	.size-l{ font-size: 20px; }
+	.size-xl{ font-size: 26px; }
+	.size-xxl{ font-size: 30px; }
+	.size-xxxl{ font-size: 36px; }
+	.size-xxxxl{ font-size: 40px; }
+}
+/* Typography - Sizes 2 */
+.size-12px{ font-size: 12px; }
+.size-13px{ font-size: 13px; }
+.size-14px{ font-size: 14px; }
+.size-15px{ font-size: 15px; }
+.size-16px{ font-size: 16px; }
+.size-18px{ font-size: 18px; }
+.size-20px{ font-size: 20px; }
+.size-21px{ font-size: 21px; }
+.size-24px{ font-size: 24px; }
+.size-27px{ font-size: 27px; }
+.size-30px{ font-size: 30px; }
+.size-36px{ font-size: 36px; }
+.size-40px{ font-size: 40px; }
+.size-46px{ font-size: 46px; }
+.size-60px{ font-size: 60px; }
+.size-86px{ font-size: 86px; }
+@media (max-width: 1023px) {
+	.size-12px{ font-size: 12px; }
+	.size-13px{ font-size: 12px; }
+	.size-14px{ font-size: 13px; }
+	.size-15px{ font-size: 14px; }
+	.size-16px{ font-size: 15px; }
+	.size-18px{ font-size: 16px; }
+	.size-20px{ font-size: 18px; }
+	.size-21px{ font-size: 18px; }
+	.size-24px{ font-size: 21px; }
+	.size-27px{ font-size: 23px; }
+	.size-30px{ font-size: 24px; }
+	.size-36px{ font-size: 27px; }
+	.size-40px{ font-size: 28px; }
+	.size-46px{ font-size: 30px; }
+	.size-60px{ font-size: 45px; }
+	.size-86px{ font-size: 50px; }
+}
+@media screen and (max-width: 768px){
+.navbar-left{
+align-items: center;
+font-size: default;
+}
 body{
 margin: 0;
   padding: 0;
