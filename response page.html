@@ -254,7 +254,10 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $(".sub").mousedown(function(){
-    alert("Your complaint has been registered!");
+    if (window.confirm('If you click "ok" you would be redirected . Cancel will allow you to make changes ')) 
+{
+window.location.href="index.html";
+};
   });
 });
 
