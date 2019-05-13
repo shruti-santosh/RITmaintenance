@@ -409,6 +409,32 @@ span.psw {
 }
 
 </style>
+	<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "none");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "none");
+  });
+});
+$(document).ready(function(){
+  $("p1").click(function(){
+    $("p3").toggle(1000);
+  });
+});
+$(document).ready(function(){
+    $("#mynav").affix({
+        offset: { 
+            top: $(".container-fluid").outerHeight(true)
+        }
+    });
+});
+//$.fn.ready(function(){
+//$("h1").fitText(2,{'minFontSize': 20, 'maxFontSize": 50});
+//});
+</script>
+
 </head>
 <body>
 <div class="row">
@@ -458,10 +484,10 @@ span.psw {
   
 
   <div class="container" >
-    <label ><b>Username</b></label>
+    <label style="color:white;"><b>Username</b></label>
     <input type="text" placeholder="Enter Username"  required>
 
-    <label><b>Password</b></label>
+    <label style="color:white;"><b>Password</b></label>
     <input type="text" placeholder="Enter Password" required>
         
 	  <input action="response page.html" class="sub" type="submit" name="" value="submit"> </a>
